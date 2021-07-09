@@ -1,0 +1,23 @@
+.tagsContainer {
+    background-color: white;
+    max-height: 150px;
+    overflow-y: scroll;
+    box-shadow: -1px 5px 5px 1px rgb(200, 200, 200);
+    border-radius: 10px;
+  }
+  .options {
+    padding: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+  }
+  .options:hover {
+    background-color: rgb(220, 220, 220);
+  }
+  .addOption {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .addOption > p {
+      margin-left: 10px;
+  }
